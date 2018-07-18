@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F156F8A1F5BBE457913770D262A9DB /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC026AED9BC296F1187D52676709F95 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04BC83AA600AB04ED78D2B28EE03FC81 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB906F0F1D04F0101F84425717D5DA6 /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A3AA620244336945D767C112A905175 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD65F1D044CA6B4DCB1D06479FB0D05 /* FSCalendarStickyHeader.m */; };
+		0CB8180040E741254CDD68085E839A82 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD53D0315CDF7CB97D3F9DC68E51672 /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CB83DC8D59DBECE58C0C9D3B3A7C6EA /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C6806053F4472117FE557CD8000DA7 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 3183907E57B9FA95D687448C389132A8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B77AB2A385BDB243B738895894FC6AB /* MASViewAttribute.m */; };
+		16959AC38CBC5A2A49B1027994214517 /* Pods-PR200 MKll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FE85AE87D58B67B3230A9A551B4B5 /* Pods-PR200 MKll-dummy.m */; };
+		18C2477628B7D634D69778A4A144BCCF /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6835CE2DF0F1EB58ECD0C540F11E5A20 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B54C1D9A40017E13DDB56D3108C8F23 /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4069CAD74061790541F2986C7DD1E218 /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EBA0A3D8D955B3AA8DBF2AFF9E2429E /* FSCalendarScopeHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 207A68A500BB12BB57A18EAF67648AEF /* FSCalendarScopeHandle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F445B26E06860B9CD427B6BA7D766D5E /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		272F95E308DA57E3521A36B945532530 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 954C900B460C99056731656102F37BD6 /* FSCalendar.m */; };
+		29F3170AEC0381278EDA1067FC313890 /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C34308939DA353BA0301891DD450314 /* FSCalendar+Deprecated.m */; };
+		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 34752190F7D329A97C53C726F8396A9C /* MASViewConstraint.m */; };
+		2FC47773DB47C314364EA39D113A8237 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 358EAF4A658D872415660C0E19810319 /* FSCalendarCollectionViewLayout.m */; };
+		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B3E470615CB60C521B499B1C536F80 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		4136E833E41CD21E618A61DA1BA04322 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DF4ACE52CEEAF24CF520A091640618 /* FSCalendarDelegationProxy.m */; };
+		4580C18F7EB83519A6BB58B740EF9C7C /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AF381BB5E88A95EBEBA5CFFB57984 /* FSCalendarTransitionCoordinator.m */; };
+		46B538AFD3B41E0E9E53F78C76D65AA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		4B64E2B34DB8DB2196B4D019E24E4638 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A471254DEF25A948E927C8FE12B849 /* FSCalendarAppearance.m */; };
+		4F09C7D5446A962F1CC78E5A5D4BC634 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC2A7B3BD446364B40A603AD1CBC982 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FE80FEE78D98DCA1835EE3DB25C84FA /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56327D4E52B0A1F42ADACB21910AB6D2 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4614DE1E724BAFE089547FF88F4FA654 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B5520AC98DD936DC504558C138A9BF59 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D98EE37CA09D3A68A8F4FD697C2E940 /* MASCompositeConstraint.m */; };
+		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9ACAEDC72736BD199E8F5461F77C68 /* Masonry-dummy.m */; };
+		6CB50C530C77901A6A0177BBBF592C08 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D922132AD3331CA9E54E2784A32EC /* FSCalendarCell.m */; };
+		6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2D54F875C73FA9D4D508F79FDACF14 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72A11D0A2DA600F927DF1F3FAC084FCC /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994936E4504046E4ACAF5E77FDCBA53 /* FSCalendar-dummy.m */; };
+		7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFF839D1AFBA5AF5076A9D7B4AFBCE6 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BDD6A158FE99B0798E86565814FCA78 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA253CAE80B5843E012A4F0C48B2B048 /* FSCalendarCalculator.m */; };
+		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C05634833233B72BAFE9EF85DDAEAB /* NSArray+MASAdditions.m */; };
+		81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EA00A1E4CF51FB9D0FD38A6CC4F2D22F /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D8CA3166FC2BA4E8244870D0C80DA6 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2331A43C9A7E36AAB5B4530EEAFC70 /* MASConstraint.m */; };
+		92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F11E0B49111A0C037868FFC55C01CF3 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BE979590A4E19E9EC9927EFBC3EC2560 /* MASLayoutConstraint.m */; };
+		9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E19EB23538D789D6F38F2C0E343B91E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AFB4FC013721E29E80AF872BE3BE4FF /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 552420B5BE61AF7D05DA78E814895CA4 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F72B30AFFC4622B46C5A3B7F56B75D7 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CAE30150990443E522BFAB989D7BA1D /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C5574E7DEC3F3FAFFB480CD668EB18 /* FSCalendar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DD4C1C7DF9FC450725993B2F2D90AC5 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4900BC6872AADB75E8CCAD0C08CB79 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A00AC7B59D049CFBAB585B25700B8EA6 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BF13B42AC54DA6F87D3017B41D150 /* FSCalendarDelegationFactory.m */; };
+		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A20416CF85D04A80121591EBB71B9 /* View+MASAdditions.m */; };
+		AC8A3A8071369DD00A872394D5E4CF16 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E5E2EAF568660D79BACCFF3D38FA0E /* FSCalendarHeaderView.m */; };
+		B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E3B7D8077364CBE43B5866EC255D27 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCE055A6FAE080A9FBB512174FB0FA79 /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C82071F90FAE2A3A8B1D34C88A443E /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE9C31DC1EF854DED90A7ED9ABDC900B /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FE5A6474032C98453C8EDCE220724B /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF73183B4D324A15F2A26A4FF118869 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6F102B0CDFCB60913F2127298160D95 /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A74692AB6824634DDA45A24CDA4B8E /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D790B318EDD63F07495480D1404D3C57 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6E49DD7A6EED35D8CB74F87360B8DA /* FSCalendarConstants.m */; };
+		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB7932D427BC9A59E55A9FDB4729044 /* ViewController+MASAdditions.m */; };
+		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4123A96EEBD5FE9EA0465CAC4406089 /* MASConstraintMaker.m */; };
+		E3156A2A70E67525569D70A641BF2CC9 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A0BDB31FE78FEC59A7B0E98B27B75 /* FSCalendarWeekdayView.m */; };
+		ECFCEC4CCAA0805B583DACDC4F2F8FDA /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE240BEACF251E662E2E9D0324985C9 /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED2BCFD93D90051BE09F2A7171AA68BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		F355034D7A2B604A567E4DDAC81031E4 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9612C9CF820F51BC6CA753DC62253A /* FSCalendarExtensions.m */; };
+		F4ECDAFB8FB5D4D95FDB0C780615DDE7 /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CE4648C72FD05FAF728571DE7FA0DB /* FSCalendarScopeHandle.m */; };
+		F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 746BE89F486DD832EF12A04C4AB543A3 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB2D6684809FC69FE060B456E307F0D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A1687B2468C035649DC7D18176BA9420 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCA92B4EA0AAC9447240212ABCA29DA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		FE5FA131AB2B1F5792AF2AFF9F6ACBB3 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3280C1F865A13FE5E44DF464C6F2CB59 /* FSCalendarCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACFA0F041C3E0D884E38E687AF2E761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
+		};
+		F1FB4D37B611E4934B00867D8F4222C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22E9235F6E1725A21137253A8AD1488;
+			remoteInfo = FSCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053246C39253A08FB0150A3FD17E707F /* libPods-PR200 MKll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PR200 MKll.a"; path = "libPods-PR200 MKll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD65F1D044CA6B4DCB1D06479FB0D05 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		100A20416CF85D04A80121591EBB71B9 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		198D467E351711DBFF70ECBA3557202C /* FSCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.xcconfig; sourceTree = "<group>"; };
+		1BB906F0F1D04F0101F84425717D5DA6 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		1BE240BEACF251E662E2E9D0324985C9 /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		1C34308939DA353BA0301891DD450314 /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FSCalendar+Deprecated.m"; path = "FSCalendar/FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		1D98EE37CA09D3A68A8F4FD697C2E940 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1F11E0B49111A0C037868FFC55C01CF3 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		207A68A500BB12BB57A18EAF67648AEF /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarScopeHandle.h; path = FSCalendar/FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		219FE85AE87D58B67B3230A9A551B4B5 /* Pods-PR200 MKll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PR200 MKll-dummy.m"; sourceTree = "<group>"; };
+		22A471254DEF25A948E927C8FE12B849 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		25A74692AB6824634DDA45A24CDA4B8E /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		28C82071F90FAE2A3A8B1D34C88A443E /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		2A2331A43C9A7E36AAB5B4530EEAFC70 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		2B77AB2A385BDB243B738895894FC6AB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		3183907E57B9FA95D687448C389132A8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		31FE5A6474032C98453C8EDCE220724B /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		3280C1F865A13FE5E44DF464C6F2CB59 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		34752190F7D329A97C53C726F8396A9C /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		358EAF4A658D872415660C0E19810319 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		3E19EB23538D789D6F38F2C0E343B91E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4069CAD74061790541F2986C7DD1E218 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		4614DE1E724BAFE089547FF88F4FA654 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		49CE4648C72FD05FAF728571DE7FA0DB /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarScopeHandle.m; path = FSCalendar/FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		4A3BF13B42AC54DA6F87D3017B41D150 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		552420B5BE61AF7D05DA78E814895CA4 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		56327D4E52B0A1F42ADACB21910AB6D2 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		59881D60AE5092762B5366D5508AC2AA /* libFSCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSCalendar.a; path = libFSCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5994936E4504046E4ACAF5E77FDCBA53 /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		5CFF839D1AFBA5AF5076A9D7B4AFBCE6 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		6683FCD0D3C183FEDEB0DCCAE4BF807C /* Pods-PR200 MKll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PR200 MKll.release.xcconfig"; sourceTree = "<group>"; };
+		6732EB59465CBF147894213850D263EC /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6835CE2DF0F1EB58ECD0C540F11E5A20 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		6EC2A7B3BD446364B40A603AD1CBC982 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		6F72B30AFFC4622B46C5A3B7F56B75D7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		746BE89F486DD832EF12A04C4AB543A3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7E2D922132AD3331CA9E54E2784A32EC /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		86C05634833233B72BAFE9EF85DDAEAB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		87F6C70BB7CCA2E60DF5CB55B37BFBF9 /* Pods-PR200 MKll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PR200 MKll-resources.sh"; sourceTree = "<group>"; };
+		8F9ACAEDC72736BD199E8F5461F77C68 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92C6806053F4472117FE557CD8000DA7 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B3E470615CB60C521B499B1C536F80 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		954C900B460C99056731656102F37BD6 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		9DD53D0315CDF7CB97D3F9DC68E51672 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		A1687B2468C035649DC7D18176BA9420 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A36AABB0833FD5D0D1200C65B7FE1970 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		A3E5E2EAF568660D79BACCFF3D38FA0E /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		ABDB7C729CBD5B00C2E9854151FA4CD1 /* Pods-PR200 MKll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PR200 MKll-frameworks.sh"; sourceTree = "<group>"; };
+		ADB7932D427BC9A59E55A9FDB4729044 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		B01AF381BB5E88A95EBEBA5CFFB57984 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		B4123A96EEBD5FE9EA0465CAC4406089 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		B43A26457FC0F6B11E4769BA522E39EC /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		B5520AC98DD936DC504558C138A9BF59 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		BD4900BC6872AADB75E8CCAD0C08CB79 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		BE6E49DD7A6EED35D8CB74F87360B8DA /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		BE979590A4E19E9EC9927EFBC3EC2560 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C4E3B7D8077364CBE43B5866EC255D27 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C9C55A73FAC8B0C140B592BBA42D0F44 /* Pods-PR200 MKll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PR200 MKll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC9612C9CF820F51BC6CA753DC62253A /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		CDF73183B4D324A15F2A26A4FF118869 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		D3B1424BB82B9A8403B4C4306A8636CB /* Pods-PR200 MKll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PR200 MKll.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C5574E7DEC3F3FAFFB480CD668EB18 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D91A0BDB31FE78FEC59A7B0E98B27B75 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		DA2D54F875C73FA9D4D508F79FDACF14 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		DEC026AED9BC296F1187D52676709F95 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		E0D8CA3166FC2BA4E8244870D0C80DA6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E63EDED657CA79D0527CEFCE591D02AE /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8FCFF1C41CB67F67EEFF209273E82F3 /* Pods-PR200 MKll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PR200 MKll-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA00A1E4CF51FB9D0FD38A6CC4F2D22F /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EA253CAE80B5843E012A4F0C48B2B048 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		F2DF4ACE52CEEAF24CF520A091640618 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		F445B26E06860B9CD427B6BA7D766D5E /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6497BDBE8D9AC87C794530E0C388CB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B538AFD3B41E0E9E53F78C76D65AA9 /* Foundation.framework in Frameworks */,
+				FB2D6684809FC69FE060B456E307F0D8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9610232BA90CDE61E794BDFF92AF9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2BCFD93D90051BE09F2A7171AA68BB /* QuartzCore.framework in Frameworks */,
+				FCA92B4EA0AAC9447240212ABCA29DA7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8DCF521F912205FAF3E528F20D4B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43A26457FC0F6B11E4769BA522E39EC /* Masonry.xcconfig */,
+				8F9ACAEDC72736BD199E8F5461F77C68 /* Masonry-dummy.m */,
+				E63EDED657CA79D0527CEFCE591D02AE /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		10984A5A44B2F6E622FF822916E764C2 /* Pods-PR200 MKll */ = {
+			isa = PBXGroup;
+			children = (
+				C9C55A73FAC8B0C140B592BBA42D0F44 /* Pods-PR200 MKll-acknowledgements.markdown */,
+				E8FCFF1C41CB67F67EEFF209273E82F3 /* Pods-PR200 MKll-acknowledgements.plist */,
+				219FE85AE87D58B67B3230A9A551B4B5 /* Pods-PR200 MKll-dummy.m */,
+				ABDB7C729CBD5B00C2E9854151FA4CD1 /* Pods-PR200 MKll-frameworks.sh */,
+				87F6C70BB7CCA2E60DF5CB55B37BFBF9 /* Pods-PR200 MKll-resources.sh */,
+				D3B1424BB82B9A8403B4C4306A8636CB /* Pods-PR200 MKll.debug.xcconfig */,
+				6683FCD0D3C183FEDEB0DCCAE4BF807C /* Pods-PR200 MKll.release.xcconfig */,
+			);
+			name = "Pods-PR200 MKll";
+			path = "Target Support Files/Pods-PR200 MKll";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF94B42ABC66496F9258BBC79787ED5 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				D4C5574E7DEC3F3FAFFB480CD668EB18 /* FSCalendar.h */,
+				954C900B460C99056731656102F37BD6 /* FSCalendar.m */,
+				1C34308939DA353BA0301891DD450314 /* FSCalendar+Deprecated.m */,
+				1BB906F0F1D04F0101F84425717D5DA6 /* FSCalendarAppearance.h */,
+				22A471254DEF25A948E927C8FE12B849 /* FSCalendarAppearance.m */,
+				6835CE2DF0F1EB58ECD0C540F11E5A20 /* FSCalendarCalculator.h */,
+				EA253CAE80B5843E012A4F0C48B2B048 /* FSCalendarCalculator.m */,
+				1BE240BEACF251E662E2E9D0324985C9 /* FSCalendarCell.h */,
+				7E2D922132AD3331CA9E54E2784A32EC /* FSCalendarCell.m */,
+				56327D4E52B0A1F42ADACB21910AB6D2 /* FSCalendarCollectionView.h */,
+				3280C1F865A13FE5E44DF464C6F2CB59 /* FSCalendarCollectionView.m */,
+				4069CAD74061790541F2986C7DD1E218 /* FSCalendarCollectionViewLayout.h */,
+				358EAF4A658D872415660C0E19810319 /* FSCalendarCollectionViewLayout.m */,
+				92C6806053F4472117FE557CD8000DA7 /* FSCalendarConstants.h */,
+				BE6E49DD7A6EED35D8CB74F87360B8DA /* FSCalendarConstants.m */,
+				DEC026AED9BC296F1187D52676709F95 /* FSCalendarDelegationFactory.h */,
+				4A3BF13B42AC54DA6F87D3017B41D150 /* FSCalendarDelegationFactory.m */,
+				BD4900BC6872AADB75E8CCAD0C08CB79 /* FSCalendarDelegationProxy.h */,
+				F2DF4ACE52CEEAF24CF520A091640618 /* FSCalendarDelegationProxy.m */,
+				9DD53D0315CDF7CB97D3F9DC68E51672 /* FSCalendarDynamicHeader.h */,
+				28C82071F90FAE2A3A8B1D34C88A443E /* FSCalendarExtensions.h */,
+				CC9612C9CF820F51BC6CA753DC62253A /* FSCalendarExtensions.m */,
+				25A74692AB6824634DDA45A24CDA4B8E /* FSCalendarHeaderView.h */,
+				A3E5E2EAF568660D79BACCFF3D38FA0E /* FSCalendarHeaderView.m */,
+				207A68A500BB12BB57A18EAF67648AEF /* FSCalendarScopeHandle.h */,
+				49CE4648C72FD05FAF728571DE7FA0DB /* FSCalendarScopeHandle.m */,
+				552420B5BE61AF7D05DA78E814895CA4 /* FSCalendarStickyHeader.h */,
+				0DD65F1D044CA6B4DCB1D06479FB0D05 /* FSCalendarStickyHeader.m */,
+				31FE5A6474032C98453C8EDCE220724B /* FSCalendarTransitionCoordinator.h */,
+				B01AF381BB5E88A95EBEBA5CFFB57984 /* FSCalendarTransitionCoordinator.m */,
+				6EC2A7B3BD446364B40A603AD1CBC982 /* FSCalendarWeekdayView.h */,
+				D91A0BDB31FE78FEC59A7B0E98B27B75 /* FSCalendarWeekdayView.m */,
+				BF310B565B310E862B03B13FCF7E033F /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		284892BDE9DA81AB92D2C338AFE89508 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				746BE89F486DD832EF12A04C4AB543A3 /* MASCompositeConstraint.h */,
+				1D98EE37CA09D3A68A8F4FD697C2E940 /* MASCompositeConstraint.m */,
+				DA2D54F875C73FA9D4D508F79FDACF14 /* MASConstraint.h */,
+				2A2331A43C9A7E36AAB5B4530EEAFC70 /* MASConstraint.m */,
+				EA00A1E4CF51FB9D0FD38A6CC4F2D22F /* MASConstraint+Private.h */,
+				C4E3B7D8077364CBE43B5866EC255D27 /* MASConstraintMaker.h */,
+				B4123A96EEBD5FE9EA0465CAC4406089 /* MASConstraintMaker.m */,
+				3E19EB23538D789D6F38F2C0E343B91E /* MASLayoutConstraint.h */,
+				BE979590A4E19E9EC9927EFBC3EC2560 /* MASLayoutConstraint.m */,
+				4614DE1E724BAFE089547FF88F4FA654 /* Masonry.h */,
+				5CFF839D1AFBA5AF5076A9D7B4AFBCE6 /* MASUtilities.h */,
+				3183907E57B9FA95D687448C389132A8 /* MASViewAttribute.h */,
+				2B77AB2A385BDB243B738895894FC6AB /* MASViewAttribute.m */,
+				B5520AC98DD936DC504558C138A9BF59 /* MASViewConstraint.h */,
+				34752190F7D329A97C53C726F8396A9C /* MASViewConstraint.m */,
+				6F72B30AFFC4622B46C5A3B7F56B75D7 /* NSArray+MASAdditions.h */,
+				86C05634833233B72BAFE9EF85DDAEAB /* NSArray+MASAdditions.m */,
+				A1687B2468C035649DC7D18176BA9420 /* NSArray+MASShorthandAdditions.h */,
+				F445B26E06860B9CD427B6BA7D766D5E /* NSLayoutConstraint+MASDebugAdditions.h */,
+				93B3E470615CB60C521B499B1C536F80 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CDF73183B4D324A15F2A26A4FF118869 /* View+MASAdditions.h */,
+				100A20416CF85D04A80121591EBB71B9 /* View+MASAdditions.m */,
+				1F11E0B49111A0C037868FFC55C01CF3 /* View+MASShorthandAdditions.h */,
+				E0D8CA3166FC2BA4E8244870D0C80DA6 /* ViewController+MASAdditions.h */,
+				ADB7932D427BC9A59E55A9FDB4729044 /* ViewController+MASAdditions.m */,
+				0C8DCF521F912205FAF3E528F20D4B31 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		69A25381BDBD8CA33BD52CAED819BC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59881D60AE5092762B5366D5508AC2AA /* libFSCalendar.a */,
+				6732EB59465CBF147894213850D263EC /* libMasonry.a */,
+				053246C39253A08FB0150A3FD17E707F /* libPods-PR200 MKll.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D461CD2070E5AA19EE06C9D07163DAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10984A5A44B2F6E622FF822916E764C2 /* Pods-PR200 MKll */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				7DDDE6FF719C8584B81AF171EF5FF7B7 /* Pods */,
+				69A25381BDBD8CA33BD52CAED819BC24 /* Products */,
+				6D461CD2070E5AA19EE06C9D07163DAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDDE6FF719C8584B81AF171EF5FF7B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF94B42ABC66496F9258BBC79787ED5 /* FSCalendar */,
+				284892BDE9DA81AB92D2C338AFE89508 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BF310B565B310E862B03B13FCF7E033F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				198D467E351711DBFF70ECBA3557202C /* FSCalendar.xcconfig */,
+				5994936E4504046E4ACAF5E77FDCBA53 /* FSCalendar-dummy.m */,
+				A36AABB0833FD5D0D1200C65B7FE1970 /* FSCalendar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B396CCE71FE6B8A3C127DCBDF274760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CAE30150990443E522BFAB989D7BA1D /* FSCalendar.h in Headers */,
+				04BC83AA600AB04ED78D2B28EE03FC81 /* FSCalendarAppearance.h in Headers */,
+				18C2477628B7D634D69778A4A144BCCF /* FSCalendarCalculator.h in Headers */,
+				ECFCEC4CCAA0805B583DACDC4F2F8FDA /* FSCalendarCell.h in Headers */,
+				4FE80FEE78D98DCA1835EE3DB25C84FA /* FSCalendarCollectionView.h in Headers */,
+				1B54C1D9A40017E13DDB56D3108C8F23 /* FSCalendarCollectionViewLayout.h in Headers */,
+				0CB83DC8D59DBECE58C0C9D3B3A7C6EA /* FSCalendarConstants.h in Headers */,
+				01F156F8A1F5BBE457913770D262A9DB /* FSCalendarDelegationFactory.h in Headers */,
+				9DD4C1C7DF9FC450725993B2F2D90AC5 /* FSCalendarDelegationProxy.h in Headers */,
+				0CB8180040E741254CDD68085E839A82 /* FSCalendarDynamicHeader.h in Headers */,
+				BCE055A6FAE080A9FBB512174FB0FA79 /* FSCalendarExtensions.h in Headers */,
+				C6F102B0CDFCB60913F2127298160D95 /* FSCalendarHeaderView.h in Headers */,
+				1EBA0A3D8D955B3AA8DBF2AFF9E2429E /* FSCalendarScopeHandle.h in Headers */,
+				9AFB4FC013721E29E80AF872BE3BE4FF /* FSCalendarStickyHeader.h in Headers */,
+				BE9C31DC1EF854DED90A7ED9ABDC900B /* FSCalendarTransitionCoordinator.h in Headers */,
+				4F09C7D5446A962F1CC78E5A5D4BC634 /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */,
+				81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */,
+				6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */,
+				B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */,
+				9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */,
+				523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */,
+				7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */,
+				100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */,
+				5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */,
+				9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */,
+				FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */,
+				214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */,
+				92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */,
+				86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				C4BE2DC1E815E7367562323223772531 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 6732EB59465CBF147894213850D263EC /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D22E9235F6E1725A21137253A8AD1488 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC638B9A2877B94203EDF55BCB8FE919 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				9FC3B130A98B6179AD15797D65D8C4EF /* Sources */,
+				F9610232BA90CDE61E794BDFF92AF9BF /* Frameworks */,
+				1B396CCE71FE6B8A3C127DCBDF274760 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 59881D60AE5092762B5366D5508AC2AA /* libFSCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D42D43A692273C2C7688062912DA0DFB /* Pods-PR200 MKll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57A86FECA0334FBDDA235FA467D4C4EA /* Build configuration list for PBXNativeTarget "Pods-PR200 MKll" */;
+			buildPhases = (
+				A6FE8151995B0524AAFB3CBFAEA201A1 /* Sources */,
+				6497BDBE8D9AC87C794530E0C388CB93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88AFC44D8E3C89EC32FC53096D5EB8BA /* PBXTargetDependency */,
+				949DD93DFCD4485D84E460628F47EA0C /* PBXTargetDependency */,
+			);
+			name = "Pods-PR200 MKll";
+			productName = "Pods-PR200 MKll";
+			productReference = 053246C39253A08FB0150A3FD17E707F /* libPods-PR200 MKll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 69A25381BDBD8CA33BD52CAED819BC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22E9235F6E1725A21137253A8AD1488 /* FSCalendar */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				D42D43A692273C2C7688062912DA0DFB /* Pods-PR200 MKll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC3B130A98B6179AD15797D65D8C4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F3170AEC0381278EDA1067FC313890 /* FSCalendar+Deprecated.m in Sources */,
+				72A11D0A2DA600F927DF1F3FAC084FCC /* FSCalendar-dummy.m in Sources */,
+				272F95E308DA57E3521A36B945532530 /* FSCalendar.m in Sources */,
+				4B64E2B34DB8DB2196B4D019E24E4638 /* FSCalendarAppearance.m in Sources */,
+				7BDD6A158FE99B0798E86565814FCA78 /* FSCalendarCalculator.m in Sources */,
+				6CB50C530C77901A6A0177BBBF592C08 /* FSCalendarCell.m in Sources */,
+				FE5FA131AB2B1F5792AF2AFF9F6ACBB3 /* FSCalendarCollectionView.m in Sources */,
+				2FC47773DB47C314364EA39D113A8237 /* FSCalendarCollectionViewLayout.m in Sources */,
+				D790B318EDD63F07495480D1404D3C57 /* FSCalendarConstants.m in Sources */,
+				A00AC7B59D049CFBAB585B25700B8EA6 /* FSCalendarDelegationFactory.m in Sources */,
+				4136E833E41CD21E618A61DA1BA04322 /* FSCalendarDelegationProxy.m in Sources */,
+				F355034D7A2B604A567E4DDAC81031E4 /* FSCalendarExtensions.m in Sources */,
+				AC8A3A8071369DD00A872394D5E4CF16 /* FSCalendarHeaderView.m in Sources */,
+				F4ECDAFB8FB5D4D95FDB0C780615DDE7 /* FSCalendarScopeHandle.m in Sources */,
+				0A3AA620244336945D767C112A905175 /* FSCalendarStickyHeader.m in Sources */,
+				4580C18F7EB83519A6BB58B740EF9C7C /* FSCalendarTransitionCoordinator.m in Sources */,
+				E3156A2A70E67525569D70A641BF2CC9 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FE8151995B0524AAFB3CBFAEA201A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16959AC38CBC5A2A49B1027994214517 /* Pods-PR200 MKll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
+				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
+				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
+				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
+				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
+				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
+				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
+				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
+				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
+				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88AFC44D8E3C89EC32FC53096D5EB8BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = D22E9235F6E1725A21137253A8AD1488 /* FSCalendar */;
+			targetProxy = F1FB4D37B611E4934B00867D8F4222C9 /* PBXContainerItemProxy */;
+		};
+		949DD93DFCD4485D84E460628F47EA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = 9ACFA0F041C3E0D884E38E687AF2E761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EB22BF2B235019BDA816330D4570F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198D467E351711DBFF70ECBA3557202C /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F51543182976C5F5C759A3E15EC5339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B1424BB82B9A8403B4C4306A8636CB /* Pods-PR200 MKll.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		526A3E9317FEA7B8AAC22ED3EA6FE2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6683FCD0D3C183FEDEB0DCCAE4BF807C /* Pods-PR200 MKll.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6033A2127E806DD5C86A515742F7445E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43A26457FC0F6B11E4769BA522E39EC /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6681B1A324732F8264BB932595DFA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43A26457FC0F6B11E4769BA522E39EC /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2FBCDB4C05DE90B293DA6EC4E7F9416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198D467E351711DBFF70ECBA3557202C /* FSCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6033A2127E806DD5C86A515742F7445E /* Debug */,
+				6681B1A324732F8264BB932595DFA69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57A86FECA0334FBDDA235FA467D4C4EA /* Build configuration list for PBXNativeTarget "Pods-PR200 MKll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F51543182976C5F5C759A3E15EC5339 /* Debug */,
+				526A3E9317FEA7B8AAC22ED3EA6FE2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC638B9A2877B94203EDF55BCB8FE919 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FBCDB4C05DE90B293DA6EC4E7F9416 /* Debug */,
+				0EB22BF2B235019BDA816330D4570F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
